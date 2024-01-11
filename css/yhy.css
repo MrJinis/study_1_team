@@ -1,1 +1,52 @@
 @charset "utf-8";
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+*{font-family: 'SUITE-Regular',sans-serif;}
+.navbar{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    background-color: rgba(255, 255, 255, 0);
+}
+.navbar-brand{
+    font-size: 2em;
+    font-family: 'SBAggroB', Courier, monospace;
+}
+.navbar-toggle{
+    background-color: rgba(0,0,0,0.1);
+}
+.navUl{margin-left: 300px;}
+.navLi{
+    font-weight: bold; 
+    padding: 0 30px; 
+    box-sizing: border-box;}
+
+@media (max-width:1400px){
+    .nav{
+        margin-left:30px;
+    } .navbar-right{
+        margin-left: 0;
+    } .navLi{
+        padding: 0 5px;
+    }
+}
+@media (max-width:767px){
+    .nav{
+        margin-left:0px;
+    }
+}
+
+.dropdown-menu li{
+    text-align: center;
+}
