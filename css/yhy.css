@@ -64,6 +64,7 @@ p{
 .dropdown-menu li{
     text-align: center;
 }
+
 .section-1-text-wrap{
     padding: 50px 2%;
 }
@@ -95,6 +96,7 @@ p{
     margin-top: 50px;
     width: 100%;
     text-align: center;
+    position: relative;
 }
 .section-2-text-wrap p{
     color: rgb(52, 12, 145);
@@ -104,6 +106,7 @@ p{
     margin-bottom: 100px;
     font-weight: 900;
     font-size: 2.2em;
+
 }
 .secoin-2-article-text{
     padding: 0 8%;
@@ -111,6 +114,20 @@ p{
 .section-2-artlcle-wrap h4{
     font-weight: 600;
     font-size: 2em;
+}
+.btn-success{
+    padding:8px 30px; box-sizing: border-box;
+    border-radius: 10px; 
+    border: none;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .5);
+    background-color: rgb(52, 12, 145);
+    position: absolute; bottom: 0; right:30px;
+}
+.btn-success:hover{
+    transition-duration: .5s;
+    font-weight: 600;
+    color:rgb(52, 12, 145);
+    background-color: rgb(175, 145, 247);
 }
 .nbsp{
     margin-left: 45px;
@@ -154,6 +171,18 @@ p{
     padding-bottom: 50px;
     background-color: rgb(52, 12, 145);
     box-shadow: 2px 2px 10px rgb(0,0,0,.5);
+}
+.section-4-text-wrap{
+    width: 100%;
+    text-align: center;
+}
+.section-4-text-wrap h3{
+    font-weight: 900;
+    font-size: 2.2em;
+}
+.section-4-text-wrap p{
+    color: rgb(52, 12, 145);
+    font-size: 2.5em;
 }
 .h3b{
     font-size: .8em;
